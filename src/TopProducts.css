@@ -1,0 +1,21 @@
+.topProducts {
+    background-color: white;
+    height: 90vh;
+    margin-top: 10px;
+}
+
+.topProducts__header {
+    display: flex;
+    align-items: center;
+}
+
+.topProducts__input {
+    margin-left: 60px;
+    flex:0.7;
+}
+
+.topProducts__heading {
+    align-items: center;
+}
+
+

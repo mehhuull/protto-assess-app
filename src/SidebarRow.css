@@ -1,0 +1,22 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+}
+
+.sidebarRow__icon {
+    color: white;
+    font-size: large !important;
+}
+
+.sidebarRow__title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.sidebarRow:hover {
+    background-color: #808080;
+    cursor: pointer;
+}

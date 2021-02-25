@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+/* .header__left { 
+    object-fit: contain;
+    margin-left: 5px; 
+} */
+
+.header__input {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    width: 35%;
+    border: 1px solid lightgray;
+    background: transparent;
+    border: none;
+}
+
+.header__icon {
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__input > input {
+    flex: 1;
+    border: none;
+    color: gray;
+}
+
+.header__input > ::placeholder {
+    color: gray; 
+}
+
+.header__inputButton {
+    color: gray;
+}
